@@ -30,7 +30,10 @@ session_start();
     <div class="alert alert-danger" role="alert">
         A simple danger alert—check it out!
     </div>
-    <?php } ?>
+    <?php
+
+        session_destroy();
+    } ?>
 
     <div class="container text-light mt-lg-5 p-5 w-50">
 
@@ -245,6 +248,7 @@ session_start();
 
         <?php
             $_SESSION["role"] = "role";
+            // echo "alert(role)";
             ?>
         if (role != null || role != undefined) {
             document.getElementById("first_step").style.display = "none"
@@ -261,7 +265,6 @@ session_start();
 
             }
         }
-
     }
     </script>
 

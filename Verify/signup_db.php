@@ -7,6 +7,8 @@ if (isset($_POST['register_d'])) {
 
     $regex_email = '/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/';
     $d_email = $_POST["d_email"];
+    $d_email = str_replace("<", "&lt", $d_email);
+    $d_email = str_replace(">", "&gt", $d_email);
 
     // $select_query = "SELECT `delivery_email	` FROM `delivery_boy_registration` WHERE `delivery_email` = '$d_email'";
 
@@ -22,17 +24,27 @@ if (isset($_POST['register_d'])) {
         exit();
     } elseif (preg_match($regex_email, $d_email) == 1) {
         $d_name = $_POST["d_name"];
+        $d_name = str_replace("<", "&lt", $d_name);
+        $d_name = str_replace(">", "&gt", $d_name);
         $d_cnic_front_name = $_FILES["d_cnic_front"]["name"];
         $d_cnic_front_name_tmp_name = $_FILES["d_cnic_front"]["tmp_name"];
         $d_cnic_back_name = $_FILES["d_cnic_back"]["name"];
         $d_cnic_back_tmp_name = $_FILES["d_cnic_back"]["tmp_name"];
         $d_password = $_POST["d_password"];
+        $d_password = str_replace("<", "&lt", $d_password);
+        $d_password = str_replace(">", "&gt", $d_password);
         $passowrd_hash = password_hash($d_password, PASSWORD_DEFAULT);
         $d_city = $_POST["d_city"];
+        $d_city = str_replace("<", "&lt", $d_city);
+        $d_city = str_replace(">", "&gt", $d_city);
         $d_address = $_POST["d_address"];
+        $d_address = str_replace("<", "&lt", $d_address);
+        $d_address = str_replace(">", "&gt", $d_address);
         $d_picture_name = $_FILES["d_picture"]["name"];
         $d_picture_tmp_name = $_FILES["d_picture"]["tmp_name"];
         $d_number = $_POST["d_number"];
+        $d_number = str_replace("<", "&lt", $d_number);
+        $d_number = str_replace(">", "&gt", $d_number);
 
         $location_front_cnic = "../Dashboard/User_Images/D_Picture/Confidential/" . $d_cnic_front_name;
         move_uploaded_file($d_cnic_front_name_tmp_name, $location_front_cnic);
