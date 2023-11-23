@@ -1,0 +1,27 @@
+body{
+    background-image: url('../../Media/Partial-Images/red-delivery-car-deliver-express-shipping-fast-delivery-background-3d-rendering-illustration-min.webp') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0.493);
+
+}
+
+.gradient-text {
+  /* Use the following line for a linear gradient */
+  background: linear-gradient(to right, #ffffff, #fbff00);
+
+  /* Use the following line for a radial gradient */
+  /* background: radial-gradient(circle, #ff0000, #0000ff); */
+
+  /* Set text color to transparent to show the gradient through the text */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.label{
+  text-align: right !important;
+}
