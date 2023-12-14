@@ -60,6 +60,7 @@ if (isset($_POST['register_d'])) {
         if ($query->execute()) {
             header("location:../index");
         }
+        echo mysqli_error($conn);
     }
 } elseif (isset($_POST['register_s'])) {
     $regex_email = '/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/';
