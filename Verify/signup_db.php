@@ -1,6 +1,6 @@
 <?php
 session_start();
-include("../Db_Connection/connection.php");
+include("./Db_Connection/connection.php");
 
 
 if (isset($_POST['register_d'])) {
