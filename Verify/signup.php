@@ -1,9 +1,9 @@
 <?php
+session_start();
 include("../Db_Connection/connection.php");
 ?>
-session_start();
 
-?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -29,7 +29,7 @@ session_start();
     <?php if ($_SESSION["email_exist"] ?? null == true) { ?>
 
     <div class="alert alert-danger" role="alert">
-        A simple danger alert—check it out!
+        Email Already Exist! Please Try Different Email.
     </div>
     <?php
 
@@ -92,8 +92,10 @@ session_start();
                         <?php
                         if ($_SESSION["email_exist"] ?? null == true) {
                         ?>
-                        <span class="text-warning fw-bold"><cite>*This Email Is Already Registered. Please Use Different
-                                Email Address.</cite></span>
+                        <span class="text-warning fw-bold"><cite>*This Email
+                                <?php echo $_SESSION["registered_email"] ?> Is Already Registered. Please Use Different
+                                Email Address.
+                            </cite></span>
                         <?php } ?>
                     </div>
 
@@ -182,8 +184,14 @@ session_start();
                         <label for="s_email" class="fs-5 mt-lg-5">Email <span
                                 class="text-danger fw-bold">*</span></label>
                         <input type="email" name="s_email" placeholder="Email" class="form-control" required>
-                        <span class="text-warning fw-bold"><cite>*This Email Is Already Registered. Please Use Different
-                                Email Address.</cite></span>
+                        <?php if ($_SESSION["email_exist"] ?? null == true){
+                            
+                         ?> <span class="text-warning fw-bold"><cite>*This
+                                Email
+                                <?php echo $_SESSION["registered_email"]?>Is Already Registered. Please Use Different
+                                Email Address.
+                            </cite></span>
+                        <?php }?>
                     </div>
 
                     <div class="col-lg-6">
@@ -235,7 +243,7 @@ session_start();
 
                 <div class="text-center mt-lg-3">
                     <center>
-                        <input type="submit" id="submit_s" name="register_d" value="Register" class="btn btn-dark w-50"
+                        <input type="submit" id="submit_s" name="register_s" value="Register" class="btn btn-dark w-50"
                             style="display: none;">
                     </center>
                 </div>
