@@ -1,6 +1,6 @@
 # DELIVIO 🚚
 
-Welcome to DELIVIO - The Ultimate Delivery System Platform!
+Welcome to DELIVIO - The Ultimate Delivery System Platform By World Of Tech!
 
 ## Overview
 DELIVIO is an open-source project designed to revolutionize the delivery system. Store owners can easily register their stores, book delivery services based on their preferences for time and location, all while enjoying the lowest delivery fees in the market. The platform caters to two primary users: Store Owners and Delivery Boys, with an additional Admin panel overseeing operations.
@@ -25,13 +25,13 @@ DELIVIO is an open-source project designed to revolutionize the delivery system.
 3. Create a pull request highlighting your contributions.
 
 ## Join DELIVIO Community
-- Discord: [Link to Discord Server]
-- Email: [Your Contact Email]
+- Discord: [World Of Tech Server](https://discord.gg/3FBAwPpd4g)
+- Email: info@worldoftech.company
 
 Your contributions help us improve DELIVIO, ensuring a seamless and efficient delivery experience for all users.
 
 ## License
-This project is licensed under the [License Name] License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the [License Name] License - see the [LICENSE](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository#disclaimer) file for details.
 
 ---
 
