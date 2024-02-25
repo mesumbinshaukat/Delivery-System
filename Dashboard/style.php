@@ -7,10 +7,22 @@
 
 <link rel="stylesheet" href="./files/assets/pages/waves/css/waves.min.css" type="text/css" media="all">
 
+<link rel="stylesheet" type="text/css" href="./files/assets/icon/feather/css/feather.css">
+
 
 <link rel="stylesheet" type="text/css" href="./files/assets/css/font-awesome-n.min.css">
 
 <link rel="stylesheet" href="./files/bower_components/chartist/css/chartist.css" type="text/css" media="all">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.29.1/feather.min.js"></script>
+
+
+
+
+
+
+
+
 
 
 <link rel="stylesheet" type="text/css" href="./files/assets/css/style.css">
