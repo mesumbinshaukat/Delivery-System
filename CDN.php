@@ -7,13 +7,13 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> -->
+<script src="https://kit.fontawesome.com/a3b82e11b2.js" crossorigin="anonymous"></script>
 
-
-
-<style>
+<!-- <style>
 * {
     font-family: 'Poppins',
         sans-serif;
 
 }
-</style>
+</style> -->
