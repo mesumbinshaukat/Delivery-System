@@ -29,7 +29,7 @@
                 </li>
                 <li class="pcoded-hasmenu">
                     <a href="javascript:void(0)" class="waves-effect waves-dark">
-                        <span class="pcoded-micon"><i class="feather icon-sidebar"></i></span>
+                        <span class="pcoded-micon"><i data-feather="sidebar"></i></span>
                         <span class="pcoded-mtext">Page layouts</span>
                         <span class="pcoded-badge label label-warning">NEW</span>
                     </a>
@@ -67,26 +67,22 @@
                             </a>
                             <ul class="pcoded-submenu">
                                 <li class>
-                                    <a href="./default/menu-horizontal-static.html" target="_blank"
-                                        class="waves-effect waves-dark">
+                                    <a href="./default/menu-horizontal-static.html" target="_blank" class="waves-effect waves-dark">
                                         <span class="pcoded-mtext">Static Layout</span>
                                     </a>
                                 </li>
                                 <li class>
-                                    <a href="./default/menu-horizontal-fixed.html" target="_blank"
-                                        class="waves-effect waves-dark">
+                                    <a href="./default/menu-horizontal-fixed.html" target="_blank" class="waves-effect waves-dark">
                                         <span class="pcoded-mtext">Fixed layout</span>
                                     </a>
                                 </li>
                                 <li class>
-                                    <a href="./default/menu-horizontal-icon.html" target="_blank"
-                                        class="waves-effect waves-dark">
+                                    <a href="./default/menu-horizontal-icon.html" target="_blank" class="waves-effect waves-dark">
                                         <span class="pcoded-mtext">Static With Icon</span>
                                     </a>
                                 </li>
                                 <li class>
-                                    <a href="./default/menu-horizontal-icon-fixed.html" target="_blank"
-                                        class="waves-effect waves-dark">
+                                    <a href="./default/menu-horizontal-icon-fixed.html" target="_blank" class="waves-effect waves-dark">
                                         <span class="pcoded-mtext">Fixed With Icon</span>
                                     </a>
                                 </li>
@@ -513,8 +509,7 @@
                                     </a>
                                 </li>
                                 <li class=" ">
-                                    <a href="./default/dt-ext-buttons-html-5-data-export.html"
-                                        class="waves-effect waves-dark">
+                                    <a href="./default/dt-ext-buttons-html-5-data-export.html" class="waves-effect waves-dark">
                                         <span class="pcoded-mtext">Data Export</span>
                                     </a>
                                 </li>
@@ -758,8 +753,7 @@
                             </a>
                         </li>
                         <li class>
-                            <a href="./default/auth-reset-password.html" target="_blank"
-                                class="waves-effect waves-dark">
+                            <a href="./default/auth-reset-password.html" target="_blank" class="waves-effect waves-dark">
                                 <span class="pcoded-mtext">Forgot Password</span>
                             </a>
                         </li>
