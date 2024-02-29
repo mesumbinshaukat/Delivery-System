@@ -20,14 +20,14 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,600|Roboto:400,400i,500" rel="stylesheet">
 
     <link rel="stylesheet" href="css/linearicons.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
     <link rel="stylesheet" href="css/nice-select.css">
     <link rel="stylesheet" href="css/hexagons.min.css">
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/main.css">
-
+    <script src="https://kit.fontawesome.com/a3b82e11b2.js" crossorigin="anonymous"></script>
 </head>
 
 <body>

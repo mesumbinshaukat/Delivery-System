@@ -25,9 +25,9 @@ session_start();
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,600|Roboto:400,400i,500" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
-
+    <script src="https://kit.fontawesome.com/a3b82e11b2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/linearicons.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
 
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
