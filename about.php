@@ -49,14 +49,14 @@
                         </p>
                     </div>
                     <div class="right-part">
-                        <a href="index.html">home</a>
+                        <a href="index.php">Home</a>
                         <span class="fa fa-caret-right"></span>
-                        <a href="about.html">about</a>
+                        <a href="about.php">About</a>
                     </div>
                 </div>
             </div>
         </div>
-        </div>
+
     </section>
 
 
