@@ -1,6 +1,6 @@
 # DELIVIO 🚚
 
-Welcome to DELIVIO - The Ultimate Delivery System Platform By World Of Tech!
+Welcome to **DELIVIO** - The Ultimate Delivery System Platform By World Of Tech!
 
 ## Overview
 DELIVIO is an open-source project designed to revolutionize the delivery system. Store owners can easily register their stores, book delivery services based on their preferences for time and location, all while enjoying the lowest delivery fees in the market. The platform caters to two primary users: Store Owners and Delivery Boys, with an additional Admin panel overseeing operations.
